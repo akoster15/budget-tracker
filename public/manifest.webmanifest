@@ -1,6 +1,6 @@
 {
-    "short_name": "Online/Offline Budget Tracker",
     "name": "Budget Tracker",
+    "short_name": "Budget Tracker",
     "icons": [
         {
             "src": "/icons/icon-192x192.png",
@@ -15,5 +15,6 @@
     ],
      "start_url": "/",
      "background_color": "#808080",
+     "theme_color": "#808080",
      "display": "standalone"
 }
