@@ -1,7 +1,7 @@
 let db;
 let budget;
 
-const request = indexedDB.open('budgetDB', budgetVersion || 21);
+const request = indexedDB.open('budgetDB', budget || 21);
 
 request.onupgradeneeded = function (e) {
     console.log('Upgrade needed in IndexDB');
@@ -51,5 +51,12 @@ function checkDatabase() {
       }
     };
 }
+
+const saveRecord = (record) => {
+    console.log('Save record invoked');
+    const transaction = db.transaction(['BudgetStore'], 'readwrite');
+    const store = transaction.objectStore('BudgetStore');
+    store.add(record);
+};
 
 window.addEventListener('online', checkDatabase);
