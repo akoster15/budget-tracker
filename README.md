@@ -6,7 +6,7 @@ This app allows users to track their expenses both online and offline by adding 
 
 ![screenshot](https://user-images.githubusercontent.com/85514792/146469153-1e797ac9-54a3-48e4-81e8-b96521a77b22.PNG)
 
-Here is the deployed application:
+[GitHub Repo](https://github.com/akoster15/budget-tracker)
 [Budget Tracker Heroku App](https://budget-tracker-akoster15.herokuapp.com/)
 
 ## Technologies Used
